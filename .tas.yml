@@ -1,5 +1,5 @@
 ---
-framework: jest
+framework: mocha
 postmerge:
   pattern:
     - "test/test.js"
