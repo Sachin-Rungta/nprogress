@@ -1,5 +1,5 @@
 ---
-framework: mocha
+framework: jest
 postmerge:
   pattern:
     - "test/test.js"
@@ -10,7 +10,6 @@ premerge:
   - "test/test.js"
 prerun:
   - npm i
-  - npm test
 postrun:
   - node --version
 version: 2.0
