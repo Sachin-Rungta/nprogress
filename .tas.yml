@@ -9,7 +9,7 @@ postmerge:
 premerge:
   - "./test/test.js"
 prerun:
-  - npm ci
+  - npm i
 postrun:
   - node --version
 version: 2.0

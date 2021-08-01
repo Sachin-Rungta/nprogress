@@ -279,16 +279,16 @@
 
     // ----
 
-    // describe('.remove()', function() {
-    //   it('should be removed from the parent', function() {
-    //     NProgress.set(1);
-    //     NProgress.remove();
+    describe('.remove()', function() {
+      it('should be removed from the parent', function() {
+        NProgress.set(1);
+        NProgress.remove();
 
-    //     var parent = $(NProgress.settings.parent);
-    //     assert.isFalse(parent.hasClass('nprogress-custom-parent'));
-    //     assert.equal(parent.find('#nprogress').length, 0);
-    //   });
-    // });
+        var parent = $(NProgress.settings.parent);
+        assert.isFalse(parent.hasClass('nprogress-custom-parent'));
+        assert.equal(parent.find('#nprogress').length, 0);
+      });
+    });
 
     // ----
 
