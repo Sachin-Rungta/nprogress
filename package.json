@@ -8,7 +8,7 @@
     "url": "https://github.com/rstacruz/nprogress.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./test/test.js"
   },
   "main": "nprogress.js",
   "license": "MIT",
